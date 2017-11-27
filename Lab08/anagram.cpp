@@ -56,10 +56,10 @@ int main()
 
   if(alphabet_counts_1 == alphabet_counts_2)
   {
-    cout << "The strings are anagrams.";
+    cout << "The strings are anagrams." << endl;
   }
   else
   {
-    cout << "The strings are not anagrams.";
+    cout << "The strings are not anagrams." << endl;
   }
 }
