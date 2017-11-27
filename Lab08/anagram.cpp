@@ -7,7 +7,7 @@ int length_of_line(string input)
   int pre_length(input.length()), length_line(0);
   for(int i = 0; i < pre_length; i++)
   {
-    if(!isspace(input[i]))
+    if(isalpha(input[i]))
     {
       length_line++;
     }
